@@ -1,0 +1,8 @@
+Sukurti puslapį su:
+
+keliais h elementais
+p elementais
+sąrašo elementais (rūšiuoto ir nerūšiuotą)
+nuotrauka
+link elementas
+panaudoti semantinius elementus

@@ -1,0 +1,7 @@
+Sukurti puslapį naudojantis tik semantiniais elementais.
+
+CSS naudojimas nebūtinas, bet galima naudoti.
+
+Tema: Receptų puslapis
+
+Užduotis turi būti įkelta naudojantis GitHub.

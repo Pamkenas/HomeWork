@@ -1,0 +1,3 @@
+Sukurti lentelę su klasiokų pomėgiais.
+
+Sukurti formą su klasiokų pomėgių pridėjimu (neveikiantį)

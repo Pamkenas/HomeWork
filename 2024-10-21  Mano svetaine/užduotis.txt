@@ -1,0 +1,18 @@
+Sukurti svetainę apie save.
+
+Reikalavimai:
+
+Panaudoti CSS.
+Pridėti bent 2 nuotraukas.
+Puslapis turi būti sudarytas bent iš 3 puslapių.
+Darbas įkeltas į Github.
+Svetainėje turėtų būti parašyta kas kūrė svetainę.
+Jeigu norite dirbti grupėje (max 2):
+
+Papildomi reikalavimai:
+
+Kiekvienas moksleivis turi įdėti tiek pat darbo.
+Iš viso turi būti bent 6 puslapiai.
+Kiekviename puslapyje turėtų būti bent po vieną nuotrauką.
+Viename puslapyje turėtų būti bendri pomėgiai.
+Atskiras puslapis su forma skirta susisiekti (contact form).
