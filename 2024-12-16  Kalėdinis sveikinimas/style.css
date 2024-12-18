@@ -1,0 +1,39 @@
+body {
+    background-image: url("images/background-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page {
+    background-image: url("images/background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 600px;
+    height: 935px;
+    background-color: azure;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+
+#title {
+    font-size: 45px;
+    font-weight: 800;
+    font-family: "Dancing Script", serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+#text {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Dancing Script", serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}

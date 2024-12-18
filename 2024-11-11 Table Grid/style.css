@@ -1,0 +1,47 @@
+.pirma-eile {
+    background-color: purple;
+    text-align: center;
+}
+
+#geltonas-kubas {
+    background-color: yellow;
+    text-align: center;
+
+}
+
+#oranginis-kubas {
+    background-color: orange;
+    text-align: center;
+
+}
+
+.trecia-eile {
+    background-color:orange;
+    text-align: center;
+
+}
+
+.ketvirta-eile {
+    background-color: blue;
+    text-align: center;
+
+}
+
+td {
+    border: black solid 1px;
+    height: 175px;
+    width: 250px;
+    padding: 30px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.a {
+    background-color: aqua;
+    text-align: center;
+    
+}
+
+table {
+    width: 500px;
+}
