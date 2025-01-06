@@ -1,6 +1,6 @@
 .pad-doctype {
     height: auto;
-    width: 600px;
+    width: 1200px;
     background-color: rgb(25, 32, 32);
     margin: auto;
     padding-left: 20px;
@@ -9,5 +9,7 @@
     border-radius: 10px;
     color: whitesmoke;
     font-weight: 700;
+    box-shadow: 4px 6px #888888;
+    font-size: 25px;
 
 }
