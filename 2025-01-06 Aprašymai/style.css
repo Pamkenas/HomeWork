@@ -1,5 +1,5 @@
 .pad-html, .pad-css {
-    width: 1200px;
+    width: 1350px;
     margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
@@ -7,6 +7,13 @@
     font-size: 25px;
     font-weight: 700;
     color: whitesmoke;
+}
+
+#html-title {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 900;
+    color: white;
 }
 
 .pad-html {
