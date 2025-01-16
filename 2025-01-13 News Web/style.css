@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -17,11 +21,21 @@ header {
     background: #3045ff;
     color: #fff;
     padding: 20px 0;
+    position: relative;
+    z-index: 1;
 }
 
 header h1 {
     margin: 0;
     text-align: center;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background: #3045ff;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.8), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
 }
 
 nav ul {
