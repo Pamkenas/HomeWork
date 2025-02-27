@@ -5,7 +5,75 @@
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
-        "**/Thumbs.db": true
+        "**/Thumbs.db": true,
+        "**/node_modules": true
     },
+    "workbench.colorTheme": "GitHub Dark Default",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "foreground": "#75715E"
+                }
+            },
+            {
+                "scope": "keyword",
+                "settings": {
+                    "foreground": "#F92672"
+                }
+            },
+            {
+                "scope": "variable",
+                "settings": {
+                    "foreground": "#FD971F"
+                }
+            },
+            {
+                "scope": "string",
+                "settings": {
+                    "foreground": "#E6DB74"
+                }
+            },
+            {
+                "scope": "constant.numeric",
+                "settings": {
+                    "foreground": "#AE81FF"
+                }
+            },
+            {
+                "scope": "storage.type",
+                "settings": {
+                    "foreground": "#66D9EF"
+                }
+            },
+            {
+                "scope": "entity.name.function",
+                "settings": {
+                    "foreground": "#A6E22E"
+                }
+            }
+        ]
+    },
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#222234",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#744c4c",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "statusBar.background": "#0e0e15",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#222234",
+        "statusBarItem.remoteBackground": "#0e0e15",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#0e0e15",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#0e0e1599",
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "activityBar.activeBackground": "#222234",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#222234"
+    },
+    "peacock.color": "#0e0e15",
     "hide-files.files": []
 }
