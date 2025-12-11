@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+}
+
+body {
+  background: #0d0d0d;
+  color: #ccc;
+}
+
+.green-text {
+  color: #d2ff5f;
+}
+
+.hero img {
+  width: 100%;
+  height: 45vh;
+  object-fit: cover;
+  border: 3px solid #556b2f;
+  padding: 5px;
+}
+
+.topbar {
+  background: #556b2f;
+  padding: 10px 0;
+}
+
+.navbar {
+  max-width: 1400px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.navbar li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 12px;
+}
+
+.navbar li.active a,
+.navbar li a:hover {
+  background: #1b1b1b;
+}
+
+.search {
+  display: flex;
+  gap: 5px;
+}
+
+.search input {
+  padding: 6px 10px;
+}
+
+.search button {
+  background: #1b1b1b;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+  padding: 0 15px;
+}
+
+.description {
+  margin: 10px 0 25px;
+  line-height: 1.5;
+}
+
+.thumb-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.thumb img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border: 3px solid #556b2f;
+  padding: 5px;
+}
+
+.read {
+  display: block;
+  margin-top: 6px;
+  color: #b4d432;
+  text-decoration: none;
+}
+
+.sidebar .side-item {
+  margin-bottom: 25px;
+  overflow: auto;
+}
+
+.sidebar {
+  width: 350px;
+
+}.side-item img {
+  float: left;
+  width: 200px;
+  height: 14vh;
+  margin: 0 12px 6px 0;
+  border: 2px solid #556b2f;
+  padding: 3px;
+  object-fit: cover;
+}
+
+.sidebar h4 {
+  color: #d2ff5f;
+  margin: 0 0 4px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sidebar p {
+  line-height: 1.4;
+}
+
+@media (max-width: 900px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar .side-item img {
+    width: 150px;
+  }
+}
